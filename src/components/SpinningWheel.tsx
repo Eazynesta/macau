@@ -71,7 +71,7 @@ export const SpinningWheel = ({ isSpinning, onSpinComplete, selectedLogos }: Spi
                 transform: `translate(calc(-50% + ${x}px), calc(-50% + ${y}px))`
               }}
             >
-              <div className="text-2xl">{logo.icon}</div>
+              <div className="text-4xl">{logo.icon}</div>
             </div>
           );
         })}

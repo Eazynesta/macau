@@ -161,12 +161,12 @@
 
   /* Golden Wheel */
   .wheel-container {
-    background: var(--gradient-gold);
+    background: hsl(var(--arcade-black));
     border: 6px solid hsl(var(--arcade-gold-dark));
     border-radius: 50%;
     box-shadow: 
-      inset 0 4px 8px rgba(0, 0, 0, 0.2),
-      0 0 0 4px hsl(var(--arcade-black)),
+      inset 0 4px 8px rgba(0, 0, 0, 0.6),
+      0 0 0 4px hsl(var(--arcade-gold-dark)),
       var(--glow-gold);
   }
 
